@@ -1,1 +1,14 @@
-node_modules/
+# Default
+newrelic_agent.log
+.dockerignore
+.env
+.vs
+.vscode
+*/bin
+*/obj
+**/.toolstarget
+
+# Custom
+node_modules
+dist
+envs

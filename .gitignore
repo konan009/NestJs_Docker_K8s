@@ -1,38 +1,13 @@
-<<<<<<< HEAD
-# Default
-newrelic_agent.log
-.dockerignore
-.env
-.vs
-.vscode
-*/bin
-*/obj
-**/.toolstarget
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Custom
-node_modules
-dist
-envs
-=======
 # compiled output
 /dist
+/tmp
+/out-tsc
+/apps/id/.next
+
+# dependencies
 /node_modules
-
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# OS
-.DS_Store
-
-# Tests
-/coverage
-/.nyc_output
 
 # IDEs and editors
 /.idea
@@ -49,4 +24,26 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
->>>>>>> master
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.history/*
+newrelic_agent.log
+env-config-nx.sh
+tsconfig.nx-tmp
+
+# System Files
+.DS_Store
+Thumbs.db
+
+.env
+tsconfig.nx-tmp
+envs
+local-kube-images
